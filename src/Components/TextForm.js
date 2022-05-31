@@ -66,11 +66,11 @@ export default function TextForm(props){
             </div>
        </div>
        <div className="container" >
-           <button className="btn btn  mx-1" onClick={handleUpperCase} style={{color:'black',backgroundColor:props.theme.body,borderBlockColor:'black',borderInlineColor:'black',borderBottomColor:'black'}}>Convert To UpperCase</button>
-           <button className="btn btn  mx-1" onClick={handleLowerCase} style={{backgroundColor:props.theme.body,color:'black',borderBlockColor:'black',borderInlineColor:'black',borderBottomColor:'black'}}>Convert To LowerCase</button>
-           <button className="btn btn  mx-1" onClick={removeExtraSpace} style={{backgroundColor:props.theme.body,color:'black',borderBlockColor:'black',borderInlineColor:'black',borderBottomColor:'black'}}>Remove Extra Space</button>
-           <button className="btn btn  mx-1" onClick={copyText} style={{backgroundColor:props.theme.body,color:'black',borderBlockColor:'black',borderInlineColor:'black',borderBottomColor:'black'}}>Copy Text</button>
-           <button className="btn btn  mx-1" onClick={clearText} style={{backgroundColor:props.theme.body,color:'black',borderBlockColor:'black',borderInlineColor:'black',borderBottomColor:'black'}}>Clear Text</button>
+           <button className="btn btn  mx-1 my-1" onClick={handleUpperCase} style={{color:'black',backgroundColor:props.theme.body,borderBlockColor:'black',borderInlineColor:'black',borderBottomColor:'black'}}>Convert To UpperCase</button>
+           <button className="btn btn  mx-1 my-1" onClick={handleLowerCase} style={{backgroundColor:props.theme.body,color:'black',borderBlockColor:'black',borderInlineColor:'black',borderBottomColor:'black'}}>Convert To LowerCase</button>
+           <button className="btn btn  mx-1 my-1" onClick={removeExtraSpace} style={{backgroundColor:props.theme.body,color:'black',borderBlockColor:'black',borderInlineColor:'black',borderBottomColor:'black'}}>Remove Extra Space</button>
+           <button className="btn btn  mx-1 my-1" onClick={copyText} style={{backgroundColor:props.theme.body,color:'black',borderBlockColor:'black',borderInlineColor:'black',borderBottomColor:'black'}}>Copy Text</button>
+           <button className="btn btn  mx-1 my-1" onClick={clearText} style={{backgroundColor:props.theme.body,color:'black',borderBlockColor:'black',borderInlineColor:'black',borderBottomColor:'black'}}>Clear Text</button>
        </div>
        <div className="container" style={{backgroundColor:props.theme.body,color:'black'}}>
            <h4>Text Analysis</h4>
